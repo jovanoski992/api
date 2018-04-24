@@ -16,7 +16,7 @@ trait ExceptionTrait{
             return $this->HttpResponse($e);
         }	
 
-    	return parent::render($reqest , $exception);
+    	return parent::render($request , $e);
 
 	}
 
